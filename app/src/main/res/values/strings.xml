@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sgsg_Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="kakao_app_key">3afb413b558e3bbb6f9843b311ee1011</string>
+</resources>
