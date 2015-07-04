@@ -6,9 +6,9 @@ import android.os.Bundle;
 /**
  * Created by LIM_YUNGYOO on 2015-07-04.
  */
-public class MainActivity extends Activity {
+public class JoinActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.join);
     }
 }
