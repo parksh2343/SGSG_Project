@@ -6,29 +6,22 @@
     android:orientation="vertical"
     android:padding="100dp">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Test Page"
-        android:textSize="40px" />
+        android:src="@mipmap/logo_s"
+        />
 
-
-    <LinearLayout
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingTop="250dp"        >
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:layout_margin="10dp"
-            />
-
-
-
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:paddingTop="140dp"
+        android:gravity="center"
+        bootstrap:bb_icon_right="fa-android"
+        bootstrap:bb_type="success"
+        />
 
 
 

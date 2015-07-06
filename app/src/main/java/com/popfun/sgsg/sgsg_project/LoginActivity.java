@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.beardedhen.androidbootstrap.BootstrapButton;
+
 
 public class LoginActivity extends Activity {
 
@@ -14,8 +16,10 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login);
 
-        Button loginBtn = (Button)findViewById(R.id.btn_login);
-        Button testBtn = (Button)findViewById(R.id.testBtn);
+        BootstrapButton loginBtn = (BootstrapButton)findViewById(R.id.btn_login);
+
+//        Button loginBtn = (Button)findViewById(R.id.btn_login);
+//        Button testBtn = (Button)findViewById(R.id.testBtn);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
