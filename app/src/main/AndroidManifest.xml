@@ -30,6 +30,16 @@
             android:label="MainActivity">
         </activity>
 
+        <!--개인화면 Individual-->
+        <activity android:name=".IndividualActivity"
+            android:label="IndividualActivity">
+        </activity>
+
+        <!--스터디그룹 StudyGroup-->
+        <activity android:name=".StudyGroupActivity"
+            android:label="StudyGroupActivity">
+        </activity>
+
     </application>
 
 </manifest>

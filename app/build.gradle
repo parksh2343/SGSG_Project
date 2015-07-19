@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.popfun.sgsg.sgsg_project"
-        minSdkVersion 15
-        targetSdkVersion 22
+        minSdkVersion 13
+        targetSdkVersion 13
         versionCode 1
         versionName "1.0"
     }
@@ -22,5 +22,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:support-v4:13.0.+'
     compile 'com.beardedhen:androidbootstrap:+'
+    compile project(':SlidingMenu')
 }
