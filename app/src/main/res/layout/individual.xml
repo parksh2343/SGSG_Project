@@ -4,13 +4,12 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <com.beardedhen.androidbootstrap.BootstrapButton
         android:id="@+id/btn_individual_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="individual"
-        android:paddingTop="140dp"
+        android:paddingTop="70dp"
         android:gravity="center"
         bootstrap:bb_icon_right="fa-android"
         bootstrap:bb_type="success"
